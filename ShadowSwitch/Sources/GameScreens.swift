@@ -15,8 +15,10 @@ struct GameCanvasView: View {
     var body: some View {
         let paused = session.screen == .paused
         TimelineView(.animation(minimumInterval: nil, paused: paused)) { tl in
-            let _ = session.engine.advance(to: tl.date.timeIntervalSinceReferenceDate)
+            let now = tl.date.timeIntervalSinceReferenceDate
+            let _ = session.engine.advance(to: now)
             Canvas(rendersAsynchronously: false) { ctx, size in
+                _ = now   // capture the frame time so SwiftUI re-runs the closure every frame
                 Renderer.draw(ctx, size: size, e: session.engine, theme: progress.theme, skin: progress.skin,
                               reduceFX: progress.d.reduceFX || reduceMotion)
             }
@@ -48,7 +50,7 @@ struct HUDView: View {
                         VStack(spacing: 0) {
                             Text("\(e.score)").font(UI.title(44)).foregroundStyle(.white).monospacedDigit()
                                 .shadow(color: .black.opacity(0.4), radius: 4, y: 2)
-                            Text("BEST \(max(progress.d.best, e.score))").font(UI.body(11, .heavy)).tracking(1.5)
+                            Text("BEST \(max(progress.d.best, e.score))").font(UI.body(11, .heavy)).tracking(1.5).shadow(color: .black.opacity(0.45), radius: 3, y: 1)
                                 .foregroundStyle(.white.opacity(0.75))
                         }
                         Spacer()

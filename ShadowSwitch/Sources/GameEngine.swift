@@ -66,6 +66,7 @@ final class GameEngine {
     var world: World = .real
     var prevWorld: World = .real
     var reveal: CGFloat = 1
+    var revealDuration: CGFloat = 0.3
     var lastSwitchT: CGFloat = -10
     var squash: CGFloat = 0
     var invuln: CGFloat = 0
@@ -198,7 +199,7 @@ final class GameEngine {
         speed += (target - speed) * min(1, dt * 3)
         scroll += speed * dt
 
-        if reveal < 1 { reveal = min(1, reveal + dt / 0.45) }
+        if reveal < 1 { reveal = min(1, reveal + dt / revealDuration) }
         squash = max(0, squash - dt * 5)
         invuln = max(0, invuln - dt)
         shake = max(0, shake - dt * 2.5)

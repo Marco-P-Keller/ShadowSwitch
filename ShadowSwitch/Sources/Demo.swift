@@ -32,7 +32,7 @@ enum Demo {
             var c = RunConfig()
             c.seed = 4242; c.autopilot = true; c.invincible = true; c.forceEvent = event; c.modifier = modifier
             session.engine.start(c)
-            session.engine.onDeath = nil
+            session.engine.onDeath = nil; session.engine.revealDuration = 0.01
             if shadowStart { _ = session.engine.switchWorld() }
             session.screen = .playing
         }
