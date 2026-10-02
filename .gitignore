@@ -5,3 +5,7 @@ DerivedData/
 xcuserdata/
 *.ipa
 .venv/
+marketing/raw/
+marketing/store/*.png
+marketing/store/up/*.png
+tools/.simid
