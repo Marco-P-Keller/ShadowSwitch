@@ -1,0 +1,13 @@
+{
+  "identifier" : "A1B2C3D4",
+  "nonRenewingSubscriptions" : [],
+  "products" : [
+    { "displayPrice" : "4.99", "familyShareable" : false, "internalID" : "S1PASS", "localizations" : [ { "description" : "Unlock the premium track of Season 1: exclusive skins, the Haunted world and bonus rewards.", "displayName" : "Shadow Pass Premium", "locale" : "en_US" } ], "productID" : "com.connexa.shadowswitch.pass_s1", "referenceName" : "Shadow Pass S1", "type" : "NonConsumable" },
+    { "displayPrice" : "1.99", "familyShareable" : false, "internalID" : "STARTER", "localizations" : [ { "description" : "Neon Fox skin, 1000 shards and 3 second chances.", "displayName" : "Starter Bundle", "locale" : "en_US" } ], "productID" : "com.connexa.shadowswitch.starter", "referenceName" : "Starter Bundle", "type" : "NonConsumable" },
+    { "displayPrice" : "0.99", "familyShareable" : false, "internalID" : "SHARDSS", "localizations" : [ { "description" : "600 shards.", "displayName" : "600 Shards", "locale" : "en_US" } ], "productID" : "com.connexa.shadowswitch.shards_s", "referenceName" : "600 Shards", "type" : "Consumable" },
+    { "displayPrice" : "4.99", "familyShareable" : false, "internalID" : "SHARDSL", "localizations" : [ { "description" : "4000 shards.", "displayName" : "4000 Shards", "locale" : "en_US" } ], "productID" : "com.connexa.shadowswitch.shards_l", "referenceName" : "4000 Shards", "type" : "Consumable" }
+  ],
+  "settings" : {},
+  "subscriptionGroups" : [],
+  "version" : { "major" : 3, "minor" : 0 }
+}

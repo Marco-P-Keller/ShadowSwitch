@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0395144FA1AA40B1C9223F63 /* music.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6C644F978B2047BAD6968BA8 /* music.wav */; };
+		073ECD2BDEB09E5B7CF7A6D6 /* close.wav in Resources */ = {isa = PBXBuildFile; fileRef = CB7BCA2592A407AAE196F538 /* close.wav */; };
+		0D4659FD6C8CA88A3911F8A0 /* GameSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBFD06F07DB058609F5B22A /* GameSession.swift */; };
+		2976071D23D558A0320D896B /* reward.wav in Resources */ = {isa = PBXBuildFile; fileRef = CD6F2261E7A264C849AE8032 /* reward.wav */; };
+		39563D183F470D6712B929B2 /* Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BC024445A0FFBBFD7A47A9 /* Audio.swift */; };
+		4BDA3BF3C9289E75765AB495 /* coin.wav in Resources */ = {isa = PBXBuildFile; fileRef = 014EE94ED4AAEB3DE45D5C91 /* coin.wav */; };
+		51AD3785E129C972DBA3E723 /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D6374A847DA13562B2562A /* Content.swift */; };
+		5918323806831F5423C30274 /* sw_shadow.wav in Resources */ = {isa = PBXBuildFile; fileRef = B9D7AC74BAB8D28A569C1FF7 /* sw_shadow.wav */; };
+		5929F730F854767A25F54AA0 /* event.wav in Resources */ = {isa = PBXBuildFile; fileRef = 913C64816547430A56EB8C2C /* event.wav */; };
+		5E3BA48B7997C75451743F94 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8913E7D1B4E126EAF2378A55 /* Store.swift */; };
+		7D4D00D67E110712ED7A18BA /* death.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0E667148A74C8EAFF4AC835D /* death.wav */; };
+		857C6DB112AE354A73806386 /* GameScreens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011B577D5CC330BC9E97D307 /* GameScreens.swift */; };
+		88ABE867566FA9554CAFE70B /* Panels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E11CDFE086C502B47EE0ADE /* Panels.swift */; };
+		897B077E2B3DD2D0264F5E34 /* ShadowSwitchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178F584ADFF6AEC01A362365 /* ShadowSwitchApp.swift */; };
+		8F70F21D13A861659B3EB0E0 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004CA75F4CAF600057DE1DE9 /* Renderer.swift */; };
+		9A8F156405D437392BB524C5 /* sw_real.wav in Resources */ = {isa = PBXBuildFile; fileRef = 96393BFD94DD6D13D5554AF5 /* sw_real.wav */; };
+		A375C5CC9549429A79EA808A /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AD6A29A6F19C0A631B9015 /* MenuView.swift */; };
+		B6E1ECBCD4E20AD2FCECAB2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92AEFFB7453D173FD2282271 /* Assets.xcassets */; };
+		B8EE448F613F960253DD8A64 /* tap.wav in Resources */ = {isa = PBXBuildFile; fileRef = D55FDDBEE216EA602CDBA9DE /* tap.wav */; };
+		BB5F7CBB58F01F7D4E63ED6C /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B78846EE4C3DCA26F8EDE9 /* Style.swift */; };
+		C9D001FD740C2C183E7BB2CA /* best.wav in Resources */ = {isa = PBXBuildFile; fileRef = B6CFF12A9AFF5ED88D63C073 /* best.wav */; };
+		CA6E19296BDF1362C5CB66E4 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 31323C06D0B439A4BFAC063D /* PrivacyInfo.xcprivacy */; };
+		D3FE158EF048B125B251A759 /* GameEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865710705A3A38FADEF372B5 /* GameEngine.swift */; };
+		DBA30C1F34FE176E3C8A5442 /* Demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032057177E584897209B59BD /* Demo.swift */; };
+		DD24C3F37770464FDE35FB74 /* PlayerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871702C4588DAEEE9D8684FC /* PlayerData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		004CA75F4CAF600057DE1DE9 /* Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
+		011B577D5CC330BC9E97D307 /* GameScreens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScreens.swift; sourceTree = "<group>"; };
+		014EE94ED4AAEB3DE45D5C91 /* coin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = coin.wav; sourceTree = "<group>"; };
+		032057177E584897209B59BD /* Demo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo.swift; sourceTree = "<group>"; };
+		08E8FF4BB62247E9132E8B61 /* ShadowSwitch.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = ShadowSwitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E11CDFE086C502B47EE0ADE /* Panels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Panels.swift; sourceTree = "<group>"; };
+		0E667148A74C8EAFF4AC835D /* death.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = death.wav; sourceTree = "<group>"; };
+		13AD6A29A6F19C0A631B9015 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		178F584ADFF6AEC01A362365 /* ShadowSwitchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowSwitchApp.swift; sourceTree = "<group>"; };
+		31323C06D0B439A4BFAC063D /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		32D6374A847DA13562B2562A /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
+		6C644F978B2047BAD6968BA8 /* music.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = music.wav; sourceTree = "<group>"; };
+		7FBFD06F07DB058609F5B22A /* GameSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSession.swift; sourceTree = "<group>"; };
+		84BC024445A0FFBBFD7A47A9 /* Audio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Audio.swift; sourceTree = "<group>"; };
+		865710705A3A38FADEF372B5 /* GameEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameEngine.swift; sourceTree = "<group>"; };
+		871702C4588DAEEE9D8684FC /* PlayerData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerData.swift; sourceTree = "<group>"; };
+		8913E7D1B4E126EAF2378A55 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		913C64816547430A56EB8C2C /* event.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = event.wav; sourceTree = "<group>"; };
+		92AEFFB7453D173FD2282271 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96393BFD94DD6D13D5554AF5 /* sw_real.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sw_real.wav; sourceTree = "<group>"; };
+		B6CFF12A9AFF5ED88D63C073 /* best.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = best.wav; sourceTree = "<group>"; };
+		B9D7AC74BAB8D28A569C1FF7 /* sw_shadow.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sw_shadow.wav; sourceTree = "<group>"; };
+		C9B78846EE4C3DCA26F8EDE9 /* Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
+		CB7BCA2592A407AAE196F538 /* close.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = close.wav; sourceTree = "<group>"; };
+		CD6F2261E7A264C849AE8032 /* reward.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = reward.wav; sourceTree = "<group>"; };
+		D55FDDBEE216EA602CDBA9DE /* tap.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tap.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		25FC4020427E55386777BBE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08E8FF4BB62247E9132E8B61 /* ShadowSwitch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5306786FB9AE159CC0967FE0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				92AEFFB7453D173FD2282271 /* Assets.xcassets */,
+				31323C06D0B439A4BFAC063D /* PrivacyInfo.xcprivacy */,
+				F2C3B624217D4AB53B4B07F1 /* Sounds */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6E1578FA77A025E350F526FA /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				84BC024445A0FFBBFD7A47A9 /* Audio.swift */,
+				32D6374A847DA13562B2562A /* Content.swift */,
+				032057177E584897209B59BD /* Demo.swift */,
+				865710705A3A38FADEF372B5 /* GameEngine.swift */,
+				011B577D5CC330BC9E97D307 /* GameScreens.swift */,
+				7FBFD06F07DB058609F5B22A /* GameSession.swift */,
+				13AD6A29A6F19C0A631B9015 /* MenuView.swift */,
+				0E11CDFE086C502B47EE0ADE /* Panels.swift */,
+				871702C4588DAEEE9D8684FC /* PlayerData.swift */,
+				004CA75F4CAF600057DE1DE9 /* Renderer.swift */,
+				178F584ADFF6AEC01A362365 /* ShadowSwitchApp.swift */,
+				8913E7D1B4E126EAF2378A55 /* Store.swift */,
+				C9B78846EE4C3DCA26F8EDE9 /* Style.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		B3E4C04BA76BC47E606782B9 /* ShadowSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				5306786FB9AE159CC0967FE0 /* Resources */,
+				6E1578FA77A025E350F526FA /* Sources */,
+			);
+			path = ShadowSwitch;
+			sourceTree = "<group>";
+		};
+		EA1DE40BA1B7205D5EB6291A = {
+			isa = PBXGroup;
+			children = (
+				B3E4C04BA76BC47E606782B9 /* ShadowSwitch */,
+				25FC4020427E55386777BBE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2C3B624217D4AB53B4B07F1 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				B6CFF12A9AFF5ED88D63C073 /* best.wav */,
+				CB7BCA2592A407AAE196F538 /* close.wav */,
+				014EE94ED4AAEB3DE45D5C91 /* coin.wav */,
+				0E667148A74C8EAFF4AC835D /* death.wav */,
+				913C64816547430A56EB8C2C /* event.wav */,
+				6C644F978B2047BAD6968BA8 /* music.wav */,
+				CD6F2261E7A264C849AE8032 /* reward.wav */,
+				96393BFD94DD6D13D5554AF5 /* sw_real.wav */,
+				B9D7AC74BAB8D28A569C1FF7 /* sw_shadow.wav */,
+				D55FDDBEE216EA602CDBA9DE /* tap.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92FE5BE6B67D019A6DB70812 /* ShadowSwitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBCD2A0AA88104E06457C2C7 /* Build configuration list for PBXNativeTarget "ShadowSwitch" */;
+			buildPhases = (
+				730FE67F2F2AD6F99C40AA28 /* Sources */,
+				25A266A8B10F53545BC2B818 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShadowSwitch;
+			packageProductDependencies = (
+			);
+			productName = ShadowSwitch;
+			productReference = 08E8FF4BB62247E9132E8B61 /* ShadowSwitch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D809A669657AFBE57EA68C7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					92FE5BE6B67D019A6DB70812 = {
+						DevelopmentTeam = B97SQSQBMR;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EB08CD2A37A0F1AFD3DD9588 /* Build configuration list for PBXProject "ShadowSwitch" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = EA1DE40BA1B7205D5EB6291A;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 25FC4020427E55386777BBE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92FE5BE6B67D019A6DB70812 /* ShadowSwitch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25A266A8B10F53545BC2B818 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6E1ECBCD4E20AD2FCECAB2C /* Assets.xcassets in Resources */,
+				CA6E19296BDF1362C5CB66E4 /* PrivacyInfo.xcprivacy in Resources */,
+				C9D001FD740C2C183E7BB2CA /* best.wav in Resources */,
+				073ECD2BDEB09E5B7CF7A6D6 /* close.wav in Resources */,
+				4BDA3BF3C9289E75765AB495 /* coin.wav in Resources */,
+				7D4D00D67E110712ED7A18BA /* death.wav in Resources */,
+				5929F730F854767A25F54AA0 /* event.wav in Resources */,
+				0395144FA1AA40B1C9223F63 /* music.wav in Resources */,
+				2976071D23D558A0320D896B /* reward.wav in Resources */,
+				9A8F156405D437392BB524C5 /* sw_real.wav in Resources */,
+				5918323806831F5423C30274 /* sw_shadow.wav in Resources */,
+				B8EE448F613F960253DD8A64 /* tap.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		730FE67F2F2AD6F99C40AA28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39563D183F470D6712B929B2 /* Audio.swift in Sources */,
+				51AD3785E129C972DBA3E723 /* Content.swift in Sources */,
+				DBA30C1F34FE176E3C8A5442 /* Demo.swift in Sources */,
+				D3FE158EF048B125B251A759 /* GameEngine.swift in Sources */,
+				857C6DB112AE354A73806386 /* GameScreens.swift in Sources */,
+				0D4659FD6C8CA88A3911F8A0 /* GameSession.swift in Sources */,
+				A375C5CC9549429A79EA808A /* MenuView.swift in Sources */,
+				88ABE867566FA9554CAFE70B /* Panels.swift in Sources */,
+				DD24C3F37770464FDE35FB74 /* PlayerData.swift in Sources */,
+				8F70F21D13A861659B3EB0E0 /* Renderer.swift in Sources */,
+				897B077E2B3DD2D0264F5E34 /* ShadowSwitchApp.swift in Sources */,
+				5E3BA48B7997C75451743F94 /* Store.swift in Sources */,
+				BB5F7CBB58F01F7D4E63ED6C /* Style.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		247BC061C94DA789ECEECA26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ShadowSwitch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.connexa.shadowswitch;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		403E0ACEB5FDBDA0C8826417 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = B97SQSQBMR;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		9887C48C5866372831AADF87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ShadowSwitch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.connexa.shadowswitch;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A9F630AB1B6E558C9DB65FDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = B97SQSQBMR;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBCD2A0AA88104E06457C2C7 /* Build configuration list for PBXNativeTarget "ShadowSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				247BC061C94DA789ECEECA26 /* Debug */,
+				9887C48C5866372831AADF87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EB08CD2A37A0F1AFD3DD9588 /* Build configuration list for PBXProject "ShadowSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9F630AB1B6E558C9DB65FDC /* Debug */,
+				403E0ACEB5FDBDA0C8826417 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D809A669657AFBE57EA68C7E /* Project object */;
+}
