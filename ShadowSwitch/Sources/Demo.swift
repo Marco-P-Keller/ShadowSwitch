@@ -6,8 +6,16 @@ enum Demo {
     @MainActor
     static func apply(session: GameSession, progress: PlayerData, setPanel: @escaping (ActivePanel?) -> Void) {
         let args = ProcessInfo.processInfo.arguments
+        if args.contains("-selftest") {
+            let out = GameEngine.selfTest(seeds: 150, seconds: 150)
+            let url = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0].appendingPathComponent("selftest.txt")
+            try? out.write(to: url, atomically: true, encoding: .utf8)
+            return
+        }
         guard let i = args.firstIndex(of: "-demo"), i + 1 < args.count else { return }
-        let scene = args[i + 1]
+        var scene = args[i + 1]
+        let shadowStart = scene.hasSuffix("-shadow")
+        if shadowStart { scene = String(scene.dropLast(7)) }
         progress.d.tutorialDone = true
         progress.d.totalRuns = 6
         progress.d.best = 1284
@@ -25,6 +33,7 @@ enum Demo {
             c.seed = 4242; c.autopilot = true; c.invincible = true; c.forceEvent = event; c.modifier = modifier
             session.engine.start(c)
             session.engine.onDeath = nil
+            if shadowStart { _ = session.engine.switchWorld() }
             session.screen = .playing
         }
         switch scene {

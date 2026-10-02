@@ -438,6 +438,11 @@ final class GameEngine {
         let hitL = scroll + playerX + 1.4
         let hitR = scroll + playerX + playerW - 1.2
         let look = speed * 0.2
+        // escape the lava when it gets hot, unless a real-world obstacle is about to arrive
+        if event == .lava && world == .shadow && heat > 1.0 {
+            let blocked = obstacles.contains { $0.world == .real && $0.x + $0.w > hitL && $0.x - hitR < look * 1.5 }
+            if !blocked { _ = switchWorld(); return }
+        }
         for o in obstacles where o.x + o.w > hitL {
             if o.x < hitR { return }          // currently overlapping, hold
             if o.x - hitR < look {
@@ -446,5 +451,31 @@ final class GameEngine {
             }
             return
         }
+    }
+
+    // MARK: - Self test (headless bot run, used to validate fairness of the generator)
+
+    static func selfTest(seeds: Int, seconds: CGFloat) -> String {
+        var survived = 0, total: CGFloat = 0, worst: CGFloat = 999
+        var lines: [String] = []
+        for seed in 1...seeds {
+            let e = GameEngine()
+            var c = RunConfig(); c.seed = UInt64(seed); c.autopilot = true
+            if seed % 7 == 0 { c.modifier = DailyModifier.allCases[(seed / 7) % DailyModifier.allCases.count] }
+            if c.modifier == .switchBudget { c.modifier = nil }
+            e.start(c)
+            var date: TimeInterval = 1000
+            e.advance(to: date)
+            while e.phase == .running && e.t < seconds {
+                date += 1.0 / 60
+                e.advance(to: date)
+            }
+            total += e.t
+            if e.phase == .running { survived += 1 } else {
+                worst = min(worst, e.t)
+                lines.append("seed \(seed) died at t=\(Int(e.t))s speed=\(Int(e.speed)) event=\(String(describing: e.event)) cause=\(e.deathCause)")
+            }
+        }
+        return "survived \(survived)/\(seeds) avg t=\(Int(total / CGFloat(seeds)))s worst=\(Int(worst))s\n" + lines.prefix(15).joined(separator: "\n")
     }
 }
